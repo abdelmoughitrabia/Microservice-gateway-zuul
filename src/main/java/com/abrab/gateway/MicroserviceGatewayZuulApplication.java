@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @EnableZuulProxy
 @EnableDiscoveryClient
-@RestController
 public class MicroserviceGatewayZuulApplication {
 
     @Value("${global}")
